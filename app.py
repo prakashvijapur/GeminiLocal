@@ -5,7 +5,7 @@ import os
 import textwrap
 import google.generativeai as genai
 
-
+# Gen AI for text generation
 load_dotenv()  # take environment variables from .env.
 
 def to_markdown(text):
